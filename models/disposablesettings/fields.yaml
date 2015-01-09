@@ -1,0 +1,19 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    api_key:
+        label: API Key
+        commentAbove: Enter your block-disposable-email.com API Key to use with this plugin
+    notification_email:
+        label: Notification Email Address
+        commentAbove: Enter an email address you want to receive notifications at when credits run low
+    receive_notification_emails:
+        label: Receive Notification Emails?
+        commentAbove: Do you want to receive emails about errors and when credits are out?
+        type: checkbox
+    plugin_enabled:
+        label: Enable Plugin?
+        commentAbove: Do you want to turn on email verification?
+        type: checkbox
